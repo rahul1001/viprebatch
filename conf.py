@@ -8,23 +8,29 @@ sys.path.insert(0, os.path.abspath('.'))
 project = 'viprebatch'
 author = 'installusingprokey'
 
-# Extensions
-extensions = ['myst_parser']
+# -- General configuration ---------------------------------------------------
 
-# Source suffix
+extensions = [
+    'myst_parser',  # to support Markdown files
+]
+
+# Source file suffixes - support both reStructuredText and Markdown
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
 
-# The master toctree document.
-master_doc = 'index'
+master_doc = 'index'  # your root document
 
-# HTML theme
+templates_path = ['_templates']  # Important: enables your custom templates
+
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# -- Options for HTML output -------------------------------------------------
+
 html_theme = 'alabaster'
 
-# Meta tags to include in <head>
-html_meta = {
-    "description": "Easy step by step instructions to install vipre using product key for new users that recently purchased the security for device protection.",
-    "msvalidate.01": "C49E36B78750F57FF10DE13279028CBC"
-}
+# You can still add html_meta here if you want, but with the new Read the Docs addons
+# custom template is the reliable way to inject meta tags.
+
+# If you want to add other meta tags, do so in your _templates/layout.html

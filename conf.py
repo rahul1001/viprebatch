@@ -22,3 +22,9 @@ master_doc = 'index'
 
 # HTML theme
 html_theme = 'alabaster'
+
+# Meta tags to include in <head>
+html_meta = {
+    "description": "Easy step by step instructions to install vipre using product key for new users that recently purchased the security for device protection.",
+    "msvalidate.01": "C49E36B78750F57FF10DE13279028CBC"
+}

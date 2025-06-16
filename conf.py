@@ -34,3 +34,7 @@ html_theme = 'alabaster'
 # custom template is the reliable way to inject meta tags.
 
 # If you want to add other meta tags, do so in your _templates/layout.html
+
+html_meta = {
+    "msvalidate.01": "C49E36B78750F57FF10DE13279028CBC",
+}

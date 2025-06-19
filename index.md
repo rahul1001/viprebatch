@@ -5,7 +5,6 @@ If you've already purchased VIPRE Antivirus and need to install it on a new comp
 <center><a href="http://start.vipre-us.shop/" target="_blank" style="padding:10px 20px; background-color:#0000FF; color:white; text-decoration:none; border-radius:5px;">Get Started With Vipre</a></center>
 
 
----
 
 ## 1. Prerequisites Before Installation
 

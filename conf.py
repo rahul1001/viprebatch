@@ -39,4 +39,8 @@ html_meta = {
     "msvalidate.01": "C49E36B78750F57FF10DE13279028CBC",
 }
 
-html_logo = "_static/my_logo.png"
+# Path to static files
+html_static_path = ['_static']
+
+# Path to logo file
+html_logo = '_static/my_logo.png'

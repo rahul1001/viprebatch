@@ -45,4 +45,4 @@ html_meta = {
 html_static_path = ['_static']
 
 # Path to logo file
-html_logo = '_static/my_logo.png'
+html_logo = '_static/logo.jpg'
